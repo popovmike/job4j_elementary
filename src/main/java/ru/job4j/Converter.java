@@ -23,6 +23,7 @@ public class Converter {
     }
 
     public static void main(String[] args) {
+        System.out.println("Tests: ");
         float in1 = 175;
         float expected1 = 2.5f;
         float out1 = Converter.rubleToEuro(in1);
@@ -43,6 +44,7 @@ public class Converter {
         float out4 = Converter.euroToDollar(in4);
         boolean passed4 = expected4 == out4;
         System.out.println("5 euro are 5.85 dollars. Test result: " + passed4);
+        System.out.println("Converter: ");
         float euroRub = Converter.rubleToEuro(140);
         System.out.println("140 rubles are " + euroRub + " euro.");
         float dollarRub = Converter.rubleToDollar(180);
